@@ -1,0 +1,59 @@
+.page {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    margin: 200px;
+  }
+
+.angulo {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    align-content: flex-start;
+}
+
+.sofa {
+    display: flex;
+    justify-content: start;
+    align-content: start;
+    width: 449px;
+    height: 253px;
+}
+
+.informacao {
+    flex-wrap: wrap;
+    padding-left: 100px;
+    text-align: start;
+    padding-top: 30px;
+}
+
+.code {
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    height: 32px;
+    padding-bottom: 10px;
+}
+
+.value {
+    font-size: 16px;
+    line-height: 40px;
+}
+
+button {
+    width: 148px;
+    height: 32px;
+    border: 1px solid #271a45;
+    background-color: transparent;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 100px;
+}
